@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fffffe;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+    color: #094067;
+}
+h2{
+    font-size: 8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+h3{
+    font-size: 64px;
+}
+h4{
+    font-size: 3.5rem;
+}
+p{
+    font-size: 28px;
+    word-wrap: inherit;
+    font-family: 'Ubuntu', sans-serif;
+}
+li{
+    font-size: 2rem;
+}
+.link{
+    color: #3DA9FC;
+    text-decoration: none;
+}
+
+@import "home";
+@import "hobbies";
+@import "about";
